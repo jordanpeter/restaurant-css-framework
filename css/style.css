@@ -22,4 +22,14 @@ body {
   .panel h2 {
     text-align: center; }
 
+.container a {
+  color: black; }
+.container li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 1s ease;
+  text-decoration: none; }
+.container a:hover {
+  text-decoration: none;
+  color: black; }
+
 /*# sourceMappingURL=style.css.map */
