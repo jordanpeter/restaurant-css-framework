@@ -1,3 +1,6 @@
+.pages {
+  height: 1000px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -8,9 +11,14 @@ body {
   body h1, body p {
     text-align: center; }
 
-@media screen and (max-width: 990px) {
-  .navbar {
-    display: inline-block; } }
+.row {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+img {
+  width: 300px;
+  height: auto; }
+
 .jumbotron {
   opacity: 0.8; }
 
