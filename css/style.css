@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  background: url("../img/pizza-bg.png") no-repeat fixed center; }
+  body h1, body p {
+    text-align: center; }
+
+.jumbotron {
+  opacity: 0.8; }
+
+.panel {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  padding: 10px; }
+  .panel:hover {
+    transition: 2s ease;
+    background-color: rgba(0, 0, 0, 0.9); }
+  .panel h2 {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
