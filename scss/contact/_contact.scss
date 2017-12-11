@@ -1,0 +1,41 @@
+.questions{
+     margin-top: 10%;
+}
+
+
+@keyframes masuperanimation {
+    0% {
+       opacity: 0;
+    }
+     25%{
+          opacity: 0.2;
+     }
+     35%{
+          opacity: 0.4
+     }
+    50% {
+        opacity: 0.5;
+    }
+
+     75%{
+          opacity: 0.3;
+     }
+     90%{
+          opacity: 0.2;
+     }
+     99%{
+          opacity: 0.1;
+     }
+    100% {
+        opacity: 0.01;
+    }
+}
+
+.petitrond{
+     animation: masuperanimation 15s ease;
+}
+
+.fa-paper-plane{
+     margin-left: 10px;
+     margin-right: 10px;
+}
