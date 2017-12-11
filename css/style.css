@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  background: url("../img/pizza-bg.png") no-repeat fixed center;
+  background: url("../img/pizza-bg.webp") no-repeat fixed center;
   overflow-x: hidden; }
   body h1, body p {
     text-align: center; }
