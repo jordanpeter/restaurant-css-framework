@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 4%;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     background: linear-gradient(darkgrey, silver); }
     body footer a {
       text-decoration: none;
@@ -24,6 +24,10 @@ body {
         color: white; }
     body footer .row {
       margin-top: 5px; }
+    body footer .fa {
+      font-size: 30px; }
+    body footer .fa-eye {
+      text-align: right; }
 
 img {
   width: 250px;
@@ -55,10 +59,13 @@ img {
   background-color: rgba(212, 212, 212, 0.7); }
 
 .pagination {
-  margin-top: 10px; }
+  margin-top: 30px; }
 
 .bgphoto {
   background-color: rgba(0, 0, 0, 0); }
+  .bgphoto img {
+    border-radius: 10px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.8); }
 
 .clicfavori {
   text-align: center;
@@ -69,6 +76,10 @@ img {
 .SizePictMap {
   width: 600px;
   height: 400px; }
+
+.footer_resto {
+  position: relative;
+  padding-top: 1px; }
 
 .questions {
   margin-top: 10%; }
@@ -99,5 +110,9 @@ img {
 
 * {
   font-family: "Courgette", cursive; }
+
+@media screen and (max-width: 428px) {
+  footer {
+    position: relative; } }
 
 /*# sourceMappingURL=style.css.map */

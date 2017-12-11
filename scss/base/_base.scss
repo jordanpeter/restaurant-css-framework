@@ -21,7 +21,7 @@ body{
           width: 100%;
           height: 4%;
           position: absolute;
-          bottom: 0;
+          bottom: 0%;
           background: linear-gradient(darkgrey, silver);
           a{
                text-decoration: none;
@@ -32,6 +32,13 @@ body{
           }
           .row{
                margin-top: 5px;
+          }
+          .fa{
+               font-size: 30px;
+          }
+
+          .fa-eye{
+               text-align: right;
           }
      }
 }

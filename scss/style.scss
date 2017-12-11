@@ -9,3 +9,10 @@ $font: 'Courgette', cursive;
 *{
      font-family: $font;
 }
+
+@media screen and (max-width: 428px)
+{
+    footer{
+         position: relative;
+    }
+}
