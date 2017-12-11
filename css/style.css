@@ -110,7 +110,7 @@ img {
 
 @media screen and (max-width: 428px) {
   .foter {
-    position: relative;
+    position: absolute;
     bottom: 0; }
 
   .questions {
