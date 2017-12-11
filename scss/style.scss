@@ -1,5 +1,11 @@
+$font: 'Courgette', cursive;
 @import 'base/base';
 @import 'jumbotron/jumbotron';
 @import 'panel/panel';
 @import 'carte/carte';
 @import 'photos/photos';
+@import 'resto/resto';
+
+*{
+     font-family: $font;
+}

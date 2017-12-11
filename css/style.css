@@ -43,4 +43,17 @@ img {
 .pagination {
   margin-top: 10px; }
 
+.clicfavori {
+  text-align: center;
+  font-family: "Courgette", cursive;
+  padding-top: 30px;
+  margin-bottom: -10px; }
+
+.SizePictMap {
+  width: 600px;
+  height: 400px; }
+
+* {
+  font-family: "Courgette", cursive; }
+
 /*# sourceMappingURL=style.css.map */
